@@ -1,0 +1,118 @@
+/* animate.css to be included along with kuki-animation.js */
+
+.showOnLoad {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.load .showOnLoad {
+  opacity: 1;
+  visibility: visible;
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.scrollTo {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scrollTo.in-view {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scrollTo .scrollToParent {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.scrollTo.in-view .scrollToParent {
+  opacity: 1;
+  visibility: visible;
+}
+
+.speed50 {
+  -webkit-animation-duration: .50s !important;
+  animation-duration: .50s !important;
+}
+
+.speed100 {
+  -webkit-animation-duration: 1s !important;
+  animation-duration: 1s !important;
+}
+
+.speed150 {
+  -webkit-animation-duration: 1.50s !important;
+  animation-duration: 1.50s !important;
+}
+
+.nodelay {
+  -webkit-animation-delay: 0s !important;
+  animation-delay: 0s !important;
+}
+
+.delay10 {
+  -webkit-animation-delay: 0.1s !important;
+  animation-delay: 0.1s !important;
+}
+
+.delay20 {
+  -webkit-animation-delay: 0.2s !important;
+  animation-delay: 0.2s !important;
+}
+
+.delay30 {
+  -webkit-animation-delay: 0.3s !important;
+  animation-delay: 0.3s !important;
+}
+
+.delay40 {
+  -webkit-animation-delay: 0.4s !important;
+  animation-delay: 0.4s !important;
+}
+
+.delay50 {
+  -webkit-animation-delay: 0.5s !important;
+  animation-delay: 0.5s !important;
+}
+
+.delay60 {
+  -webkit-animation-delay: 0.6s !important;
+  animation-delay: 0.6s !important;
+}
+
+.delay70 {
+  -webkit-animation-delay: 0.7s !important;
+  animation-delay: 0.7s !important;
+}
+
+.delay80 {
+  -webkit-animation-delay: 0.8s !important;
+  animation-delay: 0.8s !important;
+}
+
+.delay90 {
+  -webkit-animation-delay: 0.9s !important;
+  animation-delay: 0.9s !important;
+}
+
+.delay100 {
+  -webkit-animation-delay: 1s !important;
+  animation-delay: 1s !important;
+}
+
+.delay150 {
+  -webkit-animation-delay: 1.5s !important;
+  animation-delay: 1.5s !important;
+}
+
+.delay200 {
+  -webkit-animation-delay: 2s !important;
+  animation-delay: 2s !important;
+}
+
+.delay250 {
+  -webkit-animation-delay: 2.5s !important;
+  animation-delay: 2.5s !important;
+}
